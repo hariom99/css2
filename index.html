@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css assesment</title>
+
+    <style>
+        body
+        {
+            background-image: url('https://i1.wp.com/css-tricks.com/wp-content/uploads/2011/06/Browser-Size.png?ssl=1');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%,100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:rgb(235, 10, 10) ;" >This is First Assignment</h1>
+    <hr>
+    <h2 style="font-style: oblique; color: rgb(240, 108, 75);" >What is css</h2>
+
+    <ol style="color: rgb(223, 13, 59);" >
+        <li>CSS stands for Cascading Style Sheets.</li>
+        <br>
+        <li>CSS describe how HTML elements are to be displayed on screen, paper, or in other media.</li>
+        <br>
+        <li> <span style="font-weight:bolder;" ><span style="text-decoration: line-through;" >Css is not necessary </span> CSS saves a lot of work. </span> It can control the 
+        layout of multiple web pages all at once
+        </li>
+       <br>
+        <li>External stylesheet are stored in CSS files.</li>
+    </ol>
+    <br>
+    <h2 style="font-style: oblique; color: rgb(240, 108, 75);"  >CSS can be added to HTML documents in 3 ways:</h2>
+
+    <ul style="letter-spacing: 5px; color: tomato; font-weight: 500; " >
+        <li>
+            Inline - by using the style attribute inside HTML elementsl
+        </li>
+        <li>
+            Internal - by using a style element in the head section
+        </li>
+        <li>
+            External - by using a link element to link to an external CSS files. However, <span style="font-weight: bolder ; background-color: yellow; " >in this tutorial we will use inline and internal styles,</span>
+            because this is easier to demonstrate , and easier for you to try it yourself. 
+        </li>
+    </ul>
+
+    <p style="color: rgb(233, 6, 6); font-weight: 500; " >
+        When computing CSS class vs ID, the diffrence is that CSS class applies a style to multiple elements ID, on the other hande applies a style to one unique element. ID is also special in that you can use a special URL to link directly to an element and it's used by javascript.
+    </p>
+
+    <p style="color: rgb(233, 6, 6); font-weight: 500; ">
+        In CSS, selectors are used to target a specific element or range of element on a web page. Once an element has been targeted, a style or set of styles can applied to the element.
+    </p>
+    <p style="color: rgb(233, 6, 6); font-weight: 500;">
+        There is wide range of selectors available. Two of the most commonly used are class and ID. BBoth are used to target element to which should be applied.
+    </p >
+    <a href="https://www.prepbytes.com/"><span style="font-style: italic; background-color: yellow; font-weight: 700; text-decoration: none; "   ><button>prepytes Home </button></span></a>
+
+    <center>
+        <a href="https://www.prepbytes.com/">
+            <img src="data:image/png;base64,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" alt="pb image">
+        </a>
+    </center>
+
+    <br>
+    <br>
+    <center>
+        <a href="secondPage.html"><button style="color: black;" >Go To next Page</button></a>
+    </center>
+
+</body>
+</html>
